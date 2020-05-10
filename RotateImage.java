@@ -44,7 +44,6 @@ public class Rotateimage{
 		}
 		for (int i=0;i<n;i++){
 			for(int j=0;j<n;j++){
-				System.out.println("i,j"+i+j);
 				if(i<j){
 					m[i][j]=m[i][j]+m[j][i];
 					m[j][i]=m[i][j]-m[j][i];
